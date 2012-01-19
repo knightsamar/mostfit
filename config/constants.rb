@@ -40,7 +40,7 @@ LOANS_NOT_PAYABLE = [nil, :repaid, :pending, :written_off, :claim_settlement, :p
 DUMP_FOLDER      = "db/daily"
 MASS_ENTRY_FIELDS = {
   :client => [:spouse_name, :account_number, :type_of_account, :bank_name, :bank_branch, :join_holder, :number_of_family_members, 
-              :school_distance, :phc_distance, :member_literate, :husband_litrate, :other_productive_asset, :income_regular, :client_migration, 
+              :school_distance, :phc_distance, :member_literate, :husband_literate, :other_productive_asset, :income_regular, :client_migration, 
               :pr_loan_amount, :other_income, :total_income, :poverty_status, :children_girls_under_5_years, :children_girls_5_to_15_years, 
               :children_girls_over_15_years, :children_sons_under_5_years, :children_sons_5_to_15_years, :children_sons_over_15_years, 
               :not_in_school_working_girls, :not_in_school_bonded_girls, :not_in_school_working_sons, :not_in_school_bonded_sons, 

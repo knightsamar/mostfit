@@ -1461,7 +1461,7 @@ msgid "Member literate:"
 msgstr ""
 
 #: app/views/clients/_extra_fields.html.haml:131 app/views/clients/_demographic_data.html.haml:24
-msgid "Husband litrate:"
+msgid "Husband literate:"
 msgstr ""
 
 #: app/views/clients/_extra_fields.html.haml:160

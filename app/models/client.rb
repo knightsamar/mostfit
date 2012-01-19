@@ -47,7 +47,7 @@ class Client
   property :school_distance, Integer, :length => 10, :nullable => true, :lazy => true
   property :phc_distance, Integer, :length => 10, :nullable => true, :lazy => true
   property :member_literate, Enum.send('[]', *['', 'no', 'yes']), :default => '', :nullable => true, :lazy => true
-  property :husband_litrate, Enum.send('[]', *['', 'no', 'yes']), :default => '', :nullable => true, :lazy => true
+  property :husband_literate, Enum.send('[]', *['', 'no', 'yes']), :default => '', :nullable => true, :lazy => true
   property :other_productive_asset, String, :length => 30, :nullable => true, :lazy => true
   property :income_regular, Enum.send('[]', *['', 'no', 'yes']), :default => '', :nullable => true, :lazy => true
   property :client_migration, Enum.send('[]', *['', 'no', 'yes']), :default => '', :nullable => true, :lazy => true
